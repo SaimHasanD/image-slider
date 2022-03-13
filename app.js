@@ -83,9 +83,10 @@ const createSlider = () => {
       slideIndex++;
       changeSlide(slideIndex);
     }, duration);
-  }
-  else{
-    alert('Please input a positive value');
+  } else {
+    alert('Please!! input a positive value');
+    imagesArea.style.display = 'block';
+    document.getElementById('duration').value = "";
   }
 }
 
